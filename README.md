@@ -15,10 +15,11 @@ It is stable, well documented, and has a comprehensive test suite.
 ## <a name="cloning"></a> Cloning the Source
 
 You had to start running git clone to download the contents of the node-oracledb repository. 
-At this point, if you were to see inside the `odbpi` directory, you’d to see … no files right ? Don't worry!!
-### Two approach to download the submodules
+At this point, if you were to see inside the `odpi` directory, you’d to see … no files right ? Don't worry!!
 
-You can find additional informations about [3.10.2 Installing GitHub clones and zip files](https://github.com/DineshKuppan/node-oracledb/blob/master/INSTALL.md#-3102-installing-github-clones-and-zip-files) in INSTALL.md file
+### Two approach to download the submodules mapped in node-oracledb repository
+
+You can find additional details about cloning from source in INSTALL.md - [3.10.2 Installing GitHub clones and zip files](https://github.com/DineshKuppan/node-oracledb/blob/master/INSTALL.md#-3102-installing-github-clones-and-zip-files).
 
 #### First Approach 
 
@@ -27,7 +28,7 @@ If you clone `node-oracledb` from GitHub repo, you need to additionally run:
 git clone https://github.com/oracle/node-oracledb
 ```
 After cloning, inside the node-oracledb directory 
-run the below `git submodule` commands to download contents of `odbpi` repo in terminal.
+run the below `git submodule` commands to download contents of `odpi` repo in terminal.
 
 ```
 git submodule init
