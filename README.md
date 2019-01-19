@@ -12,7 +12,7 @@ and Oracle Client.  See the
 The node-oracledb module is open source and maintained by Oracle Corp.
 It is stable, well documented, and has a comprehensive test suite.
 
-## <a name="cloning"></a> Cloning the Source
+## <a name="cloning"></a> Cloning from Source
 
 You had to start running git clone to download the contents of the node-oracledb repository. 
 At this point, if you were to see inside the `odpi` directory, you’d to see … no files right ? Don't worry!!
